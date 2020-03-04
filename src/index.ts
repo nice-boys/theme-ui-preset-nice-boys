@@ -161,6 +161,13 @@ export const theme = {
     medium: '0px 1px 4px rgba(0, 0, 0, 0.04)',
     large: '0px 1px 8px rgba(0, 0, 0, 0.08)',
   },
+  styles: {
+    root: {
+      fontFamily: 'body',
+      fontWeight: 'body',
+      lineHeight: 'body',
+    },
+  },
 };
 
 export default theme;
