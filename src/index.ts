@@ -77,25 +77,35 @@ const warn = {
 const systemFonts =
   '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
 
+const space = [
+  // +4
+  '0',
+  '4px',
+  '8px',
+  '12px',
+  '16px',
+  // +8
+  '24px',
+  '32px',
+  '40px',
+  '48px',
+  // +16
+  '64px',
+  '80px',
+  '96px',
+  '112px',
+  // +32
+  '144px',
+  '176px',
+  '208px',
+  '224px',
+];
+
 // This is a mashup of the Changefeed theme and the @primer/components theme
 // in the system-ui theme spec shape
 export const theme = {
-  space: [
-    '0',
-    '4px',
-    '8px',
-    '12px',
-    '16px',
-    '24px',
-    '32px',
-    '40px',
-    '48px',
-    '64px',
-    '80px',
-    '96px',
-    '112px',
-    '128px',
-  ],
+  space,
+  sizes: space,
   breakpoints: ['544px', '768px', '1012px', '1280px'],
   fonts: {
     body: systemFonts,
